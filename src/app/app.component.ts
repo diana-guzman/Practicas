@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  titulo: number;
+  constructor() {
+    this.titulo = 1+1;
+  }
+
 }
+
